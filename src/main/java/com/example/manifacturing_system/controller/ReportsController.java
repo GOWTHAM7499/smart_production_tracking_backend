@@ -11,7 +11,7 @@ import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/api/reports")
-@CrossOrigin("*")
+
 public class ReportsController {
 
     private final ProductionService service;

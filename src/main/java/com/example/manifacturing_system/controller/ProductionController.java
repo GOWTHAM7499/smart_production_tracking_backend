@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/production")
-@CrossOrigin("*")
+
 public class ProductionController {
 
     private final ProductionService service;
